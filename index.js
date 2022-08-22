@@ -1,0 +1,3 @@
+document.onload = () => {
+  window.print()
+}
