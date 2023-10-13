@@ -564,11 +564,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bg-dark-1 {
-  background-color: #212529 !important;
+  background-color: #111 !important;
 }
 
 .bg-dark-2 {
-  background-color: #343a40 !important;
+  background-color: #111 !important;
 }
 
 .bg-dark-3 {
@@ -3565,4 +3565,24 @@ input:-internal-autofill-selected {
   right: auto;
   left: -40px;
   border-radius: 4px 0px 0px 4px;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #111;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #20c997;
+  border-radius: 3px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #50e3ee;
 }
